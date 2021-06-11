@@ -1,0 +1,120 @@
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  &nbsp;&nbsp;&nbsp;
+  <svg height="24" width="24" data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fff">
+    <path d="M0 0h24v24H0V0z" fill="none" />
+    <path
+      d="M18.905 14c-2.029 2.401-4.862 5.005-7.905 8-5.893-5.8-11-10.134-11-14.371 0-6.154 8.114-7.587 11-2.676 2.865-4.875 11-3.499 11 2.676 0 .784-.175 1.572-.497 2.371h-6.278c-.253 0-.486.137-.61.358l-.813 1.45-2.27-4.437c-.112-.219-.331-.364-.576-.38-.246-.016-.482.097-.622.299l-1.88 2.71h-1.227c-.346-.598-.992-1-1.732-1-1.103 0-2 .896-2 2s.897 2 2 2c.74 0 1.386-.402 1.732-1h1.956c.228 0 .441-.111.573-.297l.989-1.406 2.256 4.559c.114.229.343.379.598.389.256.011.496-.118.629-.337l1.759-2.908h8.013v2h-5.095z" />
+  </svg>
+  &nbsp;&nbsp;&nbsp;
+  <span>Heart Attack Prediction</span>
+  <div class="spacer"></div>
+  <a aria-label="Angular on twitter" target="_blank" rel="noopener" href="https://twitter.com/NishanTheDev"
+    title="Twitter">
+    <svg id="twitter-logo" height="24" data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+      <rect width="400" height="400" fill="none" />
+      <path
+        d="M153.62,301.59c94.34,0,145.94-78.16,145.94-145.94,0-2.22,0-4.43-.15-6.63A104.36,104.36,0,0,0,325,122.47a102.38,102.38,0,0,1-29.46,8.07,51.47,51.47,0,0,0,22.55-28.37,102.79,102.79,0,0,1-32.57,12.45,51.34,51.34,0,0,0-87.41,46.78A145.62,145.62,0,0,1,92.4,107.81a51.33,51.33,0,0,0,15.88,68.47A50.91,50.91,0,0,1,85,169.86c0,.21,0,.43,0,.65a51.31,51.31,0,0,0,41.15,50.28,51.21,51.21,0,0,1-23.16.88,51.35,51.35,0,0,0,47.92,35.62,102.92,102.92,0,0,1-63.7,22A104.41,104.41,0,0,1,75,278.55a145.21,145.21,0,0,0,78.62,23"
+        fill="#fff" />
+    </svg>
+  </a>
+  <a aria-label="Angular on YouTube" target="_blank" rel="noopener" href="https://www.linkedin.com/in/NishanChathuranga"
+    title="LinkdIn">
+    <svg id="linkedin-logo" height="24" width="24" data-name="Logo" xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24" fill="#fff">
+      <path d="M0 0h24v24H0V0z" fill="none" />
+      <path
+        d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+    </svg>
+  </a>
+  &nbsp;&nbsp;
+</div>
+
+<div class="content" role="main">
+  <h2>Welcome</h2>
+  <p>Please enter the parameters below & click 'Predict' 💓</p>
+  <br />
+  <input type="hidden" #selection>
+  <form #userlogin="ngForm" (ngSubmit)="onClickSubmit(userlogin.value)">
+    <div class="row">
+      <div class="col-lg-4">
+        <input type="text" class="form-control" name="age" placeholder="Age" ngModel>
+        <br />
+        <select class="form-select" name="sex" ngModel>
+          <option value="" disabled selected>Gender</option>
+          <option value="Male">Male</option>
+          <option value="Feamle">Feamle</option>
+        </select>
+        <br />
+        <select class="form-select" name="cp" ngModel>
+          <option value="" disabled selected>Chest Pain Type</option>
+          <option value="1">Typical angina</option>
+          <option value="2">Atypical angina</option>
+          <option value="3">Non-anginal pain</option>
+          <option value="4">Asymptomatic</option>
+        </select>
+        <br />
+        <input type="text" class="form-control" name="trestbps" placeholder="Resting Blood Pressure" ngModel>
+        <br />
+        <input type="text" class="form-control" name="chol" placeholder="Serum Cholestoral (mg/dl)" ngModel>
+        <br />
+      </div>
+      <div class="col-lg-4">
+        <input type="text" class="form-control" name="fbs" placeholder="Fasting Blood Sugar (mg/dl)" ngModel>
+        <br />
+        <select class="form-select" name="restecg" ngModel>
+          <option value="" disabled selected>Resting ECG</option>
+          <option value="0">Normal</option>
+          <option value="1">ST-T Wave Abnormality</option>
+          <option value="2">Left Ventricular Hypertrophy</option>
+        </select>
+        <br />
+        <input type="text" class="form-control" name="thalach" placeholder="Max Heart Rate" ngModel>
+        <br />
+        <input type="text" class="form-control" name="oldpeak" placeholder="ST Depression" ngModel>
+        <br />
+        <input type="text" class="form-control" name="slope" placeholder="Slope of ST Segment" ngModel>
+        <br />
+      </div>
+      <div class="col-lg-4">
+        <select class="form-select" name="ca" ngModel>
+          <option value="" disabled selected>No of Major Vessels</option>
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+        <br />
+        <select class="form-select" name="thal" ngModel>
+          <option value="" disabled selected>Defect</option>
+          <option value="3">Normal</option>
+          <option value="6">Fixed defect</option>
+          <option value="7">Reversable defect</option>
+        </select>
+        <br />
+        <input type="text" class="form-control" name="exang" placeholder="Exercise Induced Angina" ngModel>
+        <br />
+        <div class="card-container ">
+          <input class="card form-control" type="submit" value="Predict">
+        </div>
+      </div>
+    </div>
+  </form>
+  <div class="row">
+    <div class="alert alert-dismissible alert-success" *ngIf="!isPositive && isPositive !== undefined">
+      <strong>Don't worry!</strong> This person is out of risk, but continuous monitoring is advised.
+    </div>
+    <div class="alert alert-dismissible alert-danger" *ngIf="isPositive && isPositive !== undefined">
+      <strong>Heads Up!</strong> This person might be having an Herat Attack in the future!
+    </div>
+    <button class="form-control" type="submit" value="Reset" (click)="reload()">
+      <svg height="24" width="24" data-name="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000">
+        <path d="M0 0h24v24H0V0z" fill="none" />
+        <path
+          d="M20.944 12.979c-.489 4.509-4.306 8.021-8.944 8.021-2.698 0-5.112-1.194-6.763-3.075l1.245-1.633c1.283 1.645 3.276 2.708 5.518 2.708 3.526 0 6.444-2.624 6.923-6.021h-2.923l4-5.25 4 5.25h-3.056zm-15.864-1.979c.487-3.387 3.4-6 6.92-6 2.237 0 4.228 1.059 5.51 2.698l1.244-1.632c-1.65-1.876-4.061-3.066-6.754-3.066-4.632 0-8.443 3.501-8.941 8h-3.059l4 5.25 4-5.25h-2.92z" />
+      </svg>
+    </button>
+  </div>
+
+  <router-outlet></router-outlet>
+  <ng-http-loader></ng-http-loader>
