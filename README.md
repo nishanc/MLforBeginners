@@ -1,5 +1,7 @@
 # ML for Beginners :robot:
 
+### Slides :point_right: [speakerdeck.com/nishanc/machine-learning-for-complete-beginners](https://speakerdeck.com/nishanc/machine-learning-for-complete-beginners)
+<br>
 * Visit [here](https://nishanc.medium.com/image-classification-with-teachable-machine-ml5-js-and-p5-js-233fbdf48fe7) for the image classification demo tutorial/code
 * Visit [here](https://colab.research.google.com/drive/1nL8fcYLfK0jcrqUgPlY-ouqhfN9dRKw2?usp=sharing) for heart attack prediction code 
 * Visit [here](./heart-spa/README.md) for heart attack prediction SPA application deployment/setup guide
