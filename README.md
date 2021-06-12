@@ -9,8 +9,9 @@ Interested about learning how to forcast using machine learning?
 
 
 <table style="width:100%">
-  <tr>
-    <th>
+  <tr style="">
+    <th style="">
+    <br>
 
 [![AI for Good - Part 1](https://img.youtube.com/vi/HPyDZ5HkNXw/2.jpg)](https://www.youtube.com/watch?v=HPyDZ5HkNXw)
     </th>
