@@ -24,7 +24,7 @@ Interested about learning how to forcast using machine learning?
     </th>
   </tr>
   <tr>
-    <th>Forcasting (Sinhala)</th>
+    <th>Forecasting (Sinhala)</th>
     <th>Image Classification (Sinhala)</th> 
     <th>Azure ML (English)</th>
   </tr>
