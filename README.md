@@ -1,4 +1,4 @@
-# ML for Beginners
+# ML for Beginners :robot:
 
 * Visit [here](https://nishanc.medium.com/image-classification-with-teachable-machine-ml5-js-and-p5-js-233fbdf48fe7) for the image classification demo tutorial/code
 * Visit [here](https://colab.research.google.com/drive/1nL8fcYLfK0jcrqUgPlY-ouqhfN9dRKw2?usp=sharing) for heart attack prediction code 
@@ -6,7 +6,7 @@
 * Visit [here](./heart-api/README.md) for heart attack prediction API application deployment/setup guide
 <br><br>
 
-Interested about learning how to forcast using machine learning? 
+Interested about learning how to forecast :umbrella: using machine learning and hand gestures recognition :point_up:? 
 
 
 <table style="width:100%">
@@ -31,7 +31,7 @@ Interested about learning how to forcast using machine learning?
 </table>
 
 <br><br>
-Other Resources:
+Other Resources :rocket::
 
 * [Google Machine Learning Crash Course - *FREE*](https://developers.google.com/machine-learning/crash-course)
 * [Python Tutorial for Beginners - Learn Python in 1 Hour](https://www.youtube.com/watch?v=kqtD5dpn9C8)
