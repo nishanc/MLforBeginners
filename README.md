@@ -36,6 +36,8 @@ Other Resources:
 * [Google Machine Learning Crash Course - *FREE*](https://developers.google.com/machine-learning/crash-course)
 * [Python Tutorial for Beginners - Learn Python in 1 Hour](https://www.youtube.com/watch?v=kqtD5dpn9C8)
 * [Data Science Full Course - Learn Data Science in 10 Hours](https://www.youtube.com/watch?v=-ETQ97mXXF0)
-
+* [Azure Machine Learning Studio (classic)](https://studio.azureml.net/)
+* [Build deep learning models in minutes with Perceptilabs](https://www.perceptilabs.com/#examples)
+* [ML.NET - Machine Learning made for .NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet)
 
 
