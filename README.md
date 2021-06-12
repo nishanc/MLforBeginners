@@ -31,7 +31,7 @@ Interested about learning how to forcast using machine learning?
 <br><br>
 Other Resources:
 
-* [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
+* [Google Machine Learning Crash Course - *FREE*](https://developers.google.com/machine-learning/crash-course)
 * [Python Tutorial for Beginners - Learn Python in 1 Hour](https://www.youtube.com/watch?v=kqtD5dpn9C8)
 * [Data Science Full Course - Learn Data Science in 10 Hours](https://www.youtube.com/watch?v=-ETQ97mXXF0)
 
